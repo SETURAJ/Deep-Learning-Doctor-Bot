@@ -1,0 +1,30 @@
+{   "intents":[
+    {
+        "tag":"greeting",
+        "patterns":["hi","hey","is anyone there?","hello","heya","salute","hey jimmy","jimmy"],
+        "responses":["Hello","Hi","Hi there","Heya"]
+    },
+    {
+        "tag":"goodbye",
+        "patterns":["bye","goodbye","see you later","have a nice day","nice to meet you"],
+        "responses":["Bye! Nice to meet you","Have a nice day","Goodbye","see You later"]
+    },
+    {
+        "tag":"thanks",
+        "patterns": ["thanks", "thank you", "that's helpful", "thanks for the help"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+        "patterns": ["who are you?", "what are you?", "who you are?" ],
+        "responses": ["I.m Jimmy, your bot assistant", "I'm Jimmy, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+        "patterns": ["what is your name", "what should i call you", "whats your name?"],
+        "responses": ["You can call me Jimmy.", "I'm Jimmy!", "Just call me as Jimmy"]
+    },
+    {"tag": "help",
+        "patterns":["help","need help","assistance","can you help","can you help me","I need some help"],
+        "responses":["Please enter symptoms","What are your problems?","Enter Symptoms"]
+    }
+    ]
+}
